@@ -1,11 +1,9 @@
 /**
  * =================================================================================
- * GLOBAL
+ * FOOTER
  * =================================================================================
  */
 
-@import './modules/fonts';
-@import './modules/colors';
-@import './modules/base';
-@import './modules/header';
-@import './modules/footer';
+footer, .footer {
+    margin-top: auto;
+}

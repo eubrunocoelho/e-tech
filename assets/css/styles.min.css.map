@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAMQ,0GAAkG,CAClG,kMAA0L,CAC1L,2GAAmG,CACnG,qHAA6G,CCHrH,oBAES,CACL,2BAA2B,CAAE,WAAW,CACxC,UAAU,CAAE,UAAU,CACtB,cAAc,CAAE,kBAAkB,CAGtC,IAAK,CACD,KAAK,CCTY,OAAO,CDUxB,WAAW,CDHD,QAAQ,CCIlB,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACZ,eAAe,CAAE,MAAM",
-"sources": ["../scss/modules/_fonts.scss","../scss/modules/_base.scss","../scss/modules/_colors.scss"],
+"mappings": "AAMQ,0GAAkG,CAClG,kMAA0L,CAC1L,2GAAmG,CACnG,qHAA6G,CCHrH,oBAES,CACL,2BAA2B,CAAE,WAAW,CACxC,UAAU,CAAE,UAAU,CACtB,cAAc,CAAE,kBAAkB,CAGtC,IAAK,CACD,KAAK,CCTY,OAAO,CDUxB,WAAW,CDHD,QAAQ,CCIlB,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACZ,eAAe,CAAE,MAAM,CAG3B,IAAK,CACD,UAAU,CCdK,OAAO,CDetB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,UAAU,CAAE,IAAI,CEpBpB,cAAgB,CACZ,UAAU,CAAE,IAAI",
+"sources": ["../scss/modules/_fonts.scss","../scss/modules/_base.scss","../scss/modules/_colors.scss","../scss/modules/_footer.scss"],
 "names": [],
 "file": "styles.min.css"
 }
