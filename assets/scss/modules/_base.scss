@@ -1,0 +1,21 @@
+/**
+ * =================================================================================
+ * BASE
+ * =================================================================================
+ */
+
+*,
+*::before,
+*::after {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    color: $primary-blue-color;
+    font-family: $font-roboto;
+    font-size: 18px;
+    height: 100%;
+    scroll-behavior: smooth;
+}
