@@ -8,8 +8,9 @@ header,
 .header {
     background: $primary-blue-color;
     display: flex;
+    flex-direction: column;
     height: 100%;
-    padding: 0 18px 0 18px;
+    padding: 18px 18px 18px 18px;
     width: 100%;
 
     &__container {
@@ -47,7 +48,7 @@ header,
         width: 100%;
 
         .logo {
-            &__img {
+            &__image {
                 height: 60px;
                 object-fit: contain;
                 width: 114px;
@@ -100,6 +101,42 @@ header,
             &__icon {
                 color: $white-color;
                 font-size: 24px;
+            }
+        }
+    }
+
+    &__search {
+        align-items: center;
+        display: flex;
+        height: 44px;
+        position: relative;
+        width: 100%;
+
+        .search {
+            &__input {
+                @include input-text;
+                background: $white-color;
+                border-radius: 4px;
+                height: 100%;
+                width: 100%;
+            }
+
+            &__button {
+                @include button;
+                align-items: center;
+                background: $primary-blue-color;
+                border-radius: 4px;
+                display: flex;
+                height: 36px;
+                justify-content: center;
+                right: 4px;
+                position: absolute;
+                width: 62px;
+            }
+
+            &__icon {
+                color: $white-color;
+                font-size: 18px;
             }
         }
     }
