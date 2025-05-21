@@ -3,8 +3,12 @@ $(document).ready(
         let swiper = new Swiper('#departmentsSlider',
             {
                 slidesPerView: 'auto',
-                loop: false,
-                spaceBetween: 20,
+                loop: true,
+                spaceBetween: 18,
+                navigation: {
+                    prevEl: '#departmentsPrevious',
+                    nextEl: '#departmentsNext'
+                }
             }
         );
     }
