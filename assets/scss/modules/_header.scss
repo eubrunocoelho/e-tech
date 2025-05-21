@@ -7,11 +7,24 @@
 header,
 .header {
     background: $blue-color-1;
-    display: flex;
-    flex-direction: column;
     height: 100%;
-    padding: 10px 18px 10px 18px;
     width: 100%;
+
+    &__wrapper {
+        background: $blue-color-1;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 10px 18px 10px 18px;
+        width: 100%;
+
+        &>.header {
+            &__search {
+                @include search-box($font-size: 0.9rem);
+            }
+        }
+    }
 
     &__social {
         width: 100%;
@@ -57,6 +70,7 @@ header,
 
     &__menu {
         align-items: center;
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         height: 40px;
@@ -78,8 +92,14 @@ header,
         align-items: center;
         display: flex;
         flex: 1;
+        max-height: 60px;
         justify-content: center;
         width: 100%;
+
+        &>a {
+            max-height: 60px;
+            text-decoration: none;
+        }
 
         .logo {
             &__image {
@@ -100,6 +120,7 @@ header,
                 background: transparent;
                 border: 2px solid $blue-color-3;
                 border-radius: 50%;
+                cursor: pointer;
                 display: flex;
                 flex: 0 0 auto;
                 height: 40px;
@@ -131,6 +152,7 @@ header,
     &__cart {
         align-items: center;
         background: transparent;
+        cursor: pointer;
         display: flex;
         height: 40px;
         justify-content: center;
@@ -142,10 +164,6 @@ header,
                 font-size: 24px;
             }
         }
-    }
-
-    &>&__search {
-        @include search-box($font-size: 0.9rem);
     }
 }
 
@@ -210,6 +228,14 @@ header,
     .header {
         padding: 10px 18px 0 18px;
 
+        &__wrapper {
+            &>.header {
+                &__search {
+                    display: none;
+                }
+            }
+        }
+
         &__container {
             column-gap: 20px;
 
@@ -218,10 +244,6 @@ header,
                     @include search-box($font-size: 0.9rem);
                 }
             }
-        }
-
-        &>&__search {
-            display: none;
         }
     }
 }
