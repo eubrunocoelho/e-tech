@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-Tech | E-commerce theme for websites.</title>
     <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="stylesheet" href="./assets/libs/font-awesome/css/all.min.css">
+    <script src="./assets/libs/svg-inject/svg-inject.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -17,8 +19,16 @@
             <div class="header__logo">
                 <img src="./assets/images/logo.svg" class="logo__img" />
             </div>
-            <div class="header__auth"></div>
-            <div class="header__cart"></div>
+            <div class="header__auth">
+                <div class="auth__icon">
+                    <div class="auth__object">
+                        <img src="./assets/images/icons/user.svg" class="auth__image" onload="SVGInject(this)" />
+                    </div>
+                </div>
+            </div>
+            <div class="header__cart">
+                <i class="fa-solid fa-cart-shopping cart__icon"></i>
+            </div>
         </div>
     </header>
     <footer class="footer">
