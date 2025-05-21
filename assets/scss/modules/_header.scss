@@ -117,8 +117,17 @@ header,
                 @include input-text;
                 background: $white-color;
                 border-radius: 4px;
+                color: $secondary-gray-color;
+                font-family: $font-roboto;
+                font-size: 0.80rem;
+                font-weight: 400;
                 height: 100%;
+                padding: 0 84px 0 18px;
                 width: 100%;
+
+                &::placeholder {
+                    color: $tertiary-gray-color;
+                }
             }
 
             &__button {
