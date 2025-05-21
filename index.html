@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-Tech | E-commerce theme for websites.</title>
+    <link rel="stylesheet" href="./assets/libs/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/styles.min.css">
     <link rel="stylesheet" href="./assets/libs/font-awesome/css/all.min.css">
     <script src="./assets/libs/svg-inject/svg-inject.min.js"></script>
@@ -72,36 +73,53 @@
         </div>
     </header>
     <section class="departments">
-        <ul class="departments__list">
-            <li class="departments__item">
-                <a href="#" class="departments__button button button--inline">
-                    Hardwares
-                </a>
-            </li>
-            <li class="departments__item">
-                <a href="#" class="departments__button button button--inline">
-                    Periféricos
-                </a>
-            </li>
-            <li class="departments__item">
-                <a href="#" class="departments__button button button--inline">
-                    Computadores
-                </a>
-            </li>
-            <li class="departments__item">
-                <a href="#" class="departments__button button button--inline">
-                    Escritório
-                </a>
-            </li>
-            <li class="departments__item">
-                <a href="#" class="departments__button button button--inline">
-                    Portáteis
-                </a>
-            </li>
-        </ul>
+        <div class="departments__wrapper">
+            <div class="departments__list">
+                <div class="swiper" id="departmentsSlider">
+                    <div class="swiper-wrapper">
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Computadores</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Hardwares</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Periféricos</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Monitores</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Portáteis</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Escritório</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Video Games</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Jogos</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">TV</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Casa e lazer</a>
+                        </div>
+                        <div class="departments__item swiper-slide">
+                            <a href="#" class="departments__button button button--inline">Camêras e Drones</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         Footer
     </footer>
+    <script src="./assets/libs/jquery/jquery.min.js"></script>
+    <script src="./assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
 </body>
 </html>
