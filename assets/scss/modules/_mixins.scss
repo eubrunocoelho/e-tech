@@ -4,17 +4,39 @@
  * =================================================================================
  */
 
-@mixin input-text {
+@mixin default-input-text {
     border: none;
     outline: none;
 }
 
-@mixin button {
+@mixin default-button {
     border: none;
     cursor: pointer;
     line-height: 0;
     outline: none;
     padding: 0 0 0 0;
+    text-decoration: none;
+}
+
+@mixin inline-button($text-color, $border-color, $height, $font-size) {
+    align-items: center;
+    background: transparent;
+    border: 2px solid $border-color;
+    border-radius: 4px;
+    color: $text-color;
+    display: flex;
+    height: $height;
+    justify-content: center;
+    font-family: $font-exo-2;
+    font-size: $font-size;
+    font-weight: 700;
+    padding: 0 22px 0 22px !important;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+@mixin default-shadow {
+    box-shadow: 0 2px 2px 0 rgba(178, 178, 178, 0.2);
 }
 
 @mixin search-box($font-size) {
@@ -26,7 +48,7 @@
 
     &>.search {
         &__input {
-            @include input-text;
+            @include default-input-text();
             background: $white-color;
             border-radius: 4px;
             color: $gray-color-2;
@@ -43,7 +65,7 @@
         }
 
         &__button {
-            @include button;
+            @include default-button();
             align-items: center;
             background: $blue-color-1;
             border-radius: 4px;

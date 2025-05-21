@@ -1,0 +1,16 @@
+/**
+ * =================================================================================
+ * DEPARTMENTS
+ * =================================================================================
+ */
+
+.departments {
+    @include default-shadow();
+    background: $white-color;
+    padding: 18px 18px 18px 18px;
+
+    &__list {
+        display: flex;
+        column-gap: 20px;
+    }
+}

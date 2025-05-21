@@ -1,0 +1,13 @@
+/**
+ * =================================================================================
+ * BUTTONS
+ * =================================================================================
+ */
+
+.button {
+    @include default-button();
+
+    &--inline {
+        @include inline-button($text-color: $blue-color-1, $border-color: $blue-color-2, $height: 38px, $font-size: 1rem)
+    }
+}
