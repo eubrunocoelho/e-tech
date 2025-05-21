@@ -11,6 +11,7 @@
 
 @mixin button {
     border: none;
+    cursor: pointer;
     line-height: 0;
     outline: none;
     padding: 0 0 0 0;
