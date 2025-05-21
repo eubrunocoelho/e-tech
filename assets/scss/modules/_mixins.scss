@@ -16,3 +16,50 @@
     outline: none;
     padding: 0 0 0 0;
 }
+
+@mixin search-box($font-size) {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    position: relative;
+    width: 100%;
+
+    &>.search {
+        &__input {
+            @include input-text;
+            background: $white-color;
+            border-radius: 4px;
+            color: $gray-color-2;
+            font-family: $font-roboto;
+            font-size: $font-size;
+            font-weight: 400;
+            height: 100%;
+            padding: 0 84px 0 18px;
+            width: 100%;
+
+            &::placeholder {
+                color: $gray-color-3;
+            }
+        }
+
+        &__button {
+            @include button;
+            align-items: center;
+            background: $blue-color-1;
+            border-radius: 4px;
+            display: flex;
+            height: 36px;
+            justify-content: center;
+            right: 4px;
+            position: absolute;
+            width: 62px;
+        }
+    }
+
+    .search {
+        &__icon {
+            color: $white-color;
+            font-size: 18px;
+        }
+    }
+}
