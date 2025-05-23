@@ -31,10 +31,10 @@
 }
 
 @mixin inline-button($text-color, $border-color, $height, $font-size) {
+    @include default-border-radius();
     align-items: center;
     background: transparent;
     border: 2px solid $border-color;
-    border-radius: 4px;
     color: $text-color;
     display: flex;
     height: $height;
@@ -47,9 +47,9 @@
 }
 
 @mixin boxed-button($background-color, $height, $font-size) {
+    @include default-border-radius();
     align-items: center;
     background: $background-color;
-    border-radius: 4px;
     color: $white-color;
     display: flex;
     height: $height;
@@ -79,8 +79,8 @@
     &>.search {
         &__input {
             @include default-input-text();
+            @include default-border-radius();
             background: $white-color;
-            border-radius: 4px;
             color: $gray-color-2;
             font-family: $font-roboto;
             font-size: $font-size;
@@ -96,9 +96,9 @@
 
         &__button {
             @include default-button();
+            @include default-border-radius();
             align-items: center;
             background: $blue-color-1;
-            border-radius: 4px;
             color: $white-color;
             display: flex;
             font-size: 18px;

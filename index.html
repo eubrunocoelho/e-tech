@@ -75,13 +75,13 @@
     <section class="department-slider">
         <div class="department-slider__wrapper">
             <span class="department-slider__previous">
-                <i class="fa-solid fa-chevron-left" id="departmentsPrevious"></i>
+                <i class="fa-solid fa-chevron-left" id="department_previous"></i>
             </span>
             <span class="department-slider__next">
-                <i class="fa-solid fa-chevron-right" id="departmentsNext"></i>
+                <i class="fa-solid fa-chevron-right" id="department_next"></i>
             </span>
             <div class="department-slider__list">
-                <div class="swiper" id="departmentsSlider">
+                <div class="swiper" id="department_slider">
                     <div class="swiper-wrapper">
                         <div class="department-slider__item swiper-slide">
                             <a href="#" class="department-slider__button button button--inline">Computadores</a>
@@ -129,42 +129,258 @@
                 </span>
                 <h1 class="heading__title">Ofertas</h1>
                 <div class="heading__navigation">
-                    <span class="navigation__previous">
+                    <span class="navigation__previous" id="offer_previous">
                         <i class="fa-solid fa-chevron-left"></i>
                     </span>
-                    <span class="navigation__next">
+                    <span class="navigation__next" id="offer_next">
                         <i class="fa-solid fa-chevron-right"></i>
                     </span>
                 </div>
             </hgroup>
             <div class="section__content product-slider">
-                <div class="cards__product product-slider__item">
-                    <div class="product__image">
-                        <!-- empty -->
+                <div class="swiper" id="offer_slider">
+                    <div class="swiper-wrapper">
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
+                        <!-- Product -->
+                        <div class="cards__product product-slider__item swiper-slide">
+                            <div class="product__image">
+                                <!-- empty -->
+                            </div>
+                            <hgroup class="product__heading">
+                                <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
+                            </hgroup>
+                            <div class="product__availability">
+                                <div class="availability__offer">20% OFF</div>
+                                <div class="availability__stock">Em Estoque</div>
+                            </div>
+                            <div class="product__description">
+                                <p class="product__original-price">R$ 1.800,00</p>
+                                <h1 class="product__price">R$ 1.440,00</h1>
+                                <p class="product__parcel">
+                                    <span>À vista no PIX</span>
+                                    <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
+                                </p>
+                            </div>
+                            <a href="#" class="button button--boxed">
+                                <span class="button__content">
+                                    <span class="button__icon">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+                        <!-- End - Product -->
                     </div>
-                    <hgroup class="product__heading">
-                        <h4>Notebook Acer Aspire 5 AMD Ryzen7-5700U, 16GB RAM, SSD 512GB, 15.6" FHD IPS, AMD Radeon, Windows 11 Pro, Prata</h4>
-                    </hgroup>
-                    <div class="product__availability">
-                        <div class="availability__offer">20% OFF</div>
-                        <div class="availability__stock">Em Estoque</div>
-                    </div>
-                    <div class="product__description">
-                        <p class="product__original-price">R$ 1.800,00</p>
-                        <h1 class="product__price">R$ 1.440,00</h1>
-                        <p class="product__parcel">
-                            <span>À vista no PIX</span>
-                            <span>ou até <span class="emphasis">10x de R$ 150,99</span></span>
-                        </p>
-                    </div>
-                    <a href="#" class="button button--boxed">
-                        <span class="button__content">
-                            <span class="button__icon">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </span>
-                            Comprar
-                        </span>
-                    </a>
                 </div>
             </div>
         </section>

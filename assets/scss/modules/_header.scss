@@ -21,7 +21,9 @@ header,
 
         &>.header {
             &__search {
-                @include search-box($font-size: 0.9rem);
+                @include search-box(
+                    $font-size: 0.9rem
+                );
             }
         }
     }
@@ -37,9 +39,9 @@ header,
             }
 
             &__link {
+                @include default-border-radius();
                 align-items: center;
                 background: $white-color;
-                border-radius: 4px;
                 color: $blue-color-1;
                 display: flex;
                 font-size: 13px;
@@ -245,7 +247,9 @@ header,
 
             &>.header {
                 &__search {
-                    @include search-box($font-size: 0.9rem);
+                    @include search-box(
+                        $font-size: 0.9rem
+                    );
                 }
             }
         }

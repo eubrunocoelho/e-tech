@@ -45,9 +45,9 @@ section,
 
                 .navigation {
                     &__previous, &__next {
+                        @include default-border-radius();
                         align-items: center;
                         background: $blue-color-2;
-                        border-radius: 4px;
                         color: $white-color;
                         cursor: pointer;
                         display: flex;
