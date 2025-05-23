@@ -7,7 +7,38 @@
 .button {
     @include default-button();
 
+    &__content {
+        align-items: center;
+        column-gap: 6px;
+        display: flex;
+        height: 100%;
+        width: max-content;
+    }
+
+    &__icon {
+        align-items: center;
+        color: $white-color;
+        display: flex;
+        font-size: 16px !important;
+        height: 20px;
+        justify-content: center;
+        width: 20px;
+    }
+
     &--inline {
-        @include inline-button($text-color: $blue-color-1, $border-color: $blue-color-2, $height: 38px, $font-size: 1rem)
+        @include inline-button(
+            $text-color: $blue-color-1,
+            $border-color: $blue-color-2,
+            $height: 38px,
+            $font-size: 1rem,
+        );
+    }
+
+    &--boxed {
+        @include boxed-button(
+            $background-color: $blue-color-2,
+            $height: 38px,
+            $font-size: 0.84rem,
+        );
     }
 }

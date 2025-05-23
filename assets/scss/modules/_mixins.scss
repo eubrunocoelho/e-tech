@@ -42,9 +42,23 @@
     font-family: $font-exo-2;
     font-size: $font-size;
     font-weight: 700;
-    padding: 0 22px 0 22px !important;
     text-transform: uppercase;
-    width: max-content;
+    width: 100%;
+}
+
+@mixin boxed-button($background-color, $height, $font-size) {
+    align-items: center;
+    background: $background-color;
+    border-radius: 4px;
+    color: $white-color;
+    display: flex;
+    height: $height;
+    justify-content: center;
+    font-family: $font-exo-2;
+    font-size: $font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
 }
 
 @mixin search-box($font-size) {

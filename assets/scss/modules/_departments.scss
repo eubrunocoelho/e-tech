@@ -52,6 +52,10 @@
     &__item {
         width: max-content !important;
     }
+
+    &__button {
+        padding: 0 22px 0 22px !important;
+    }
 }
 
 @media screen and (min-width: 420px) {
