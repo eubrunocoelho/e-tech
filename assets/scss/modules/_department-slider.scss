@@ -4,7 +4,7 @@
  * =================================================================================
  */
 
-.departments {
+.department-slider {
     @include default-shadow();
     background: $white-color;
     margin: 0 0 40px 0;
@@ -59,7 +59,7 @@
 }
 
 @media screen and (min-width: 420px) {
-    .departments {
+    .department-slider {
         &__wrapper {
             padding: 10px 20px 10px 20px;
         }
@@ -75,7 +75,7 @@
 }
 
 @media screen and (min-width: 636px) {
-    .departments {
+    .department-slider {
         &__wrapper {
             padding: 10px 30px 10px 30px;
         }
@@ -91,7 +91,7 @@
 }
 
 @media screen and (min-width: 800px) {
-    .departments {
+    .department-slider {
         &__wrapper {
             padding: 10px 40px 10px 40px;
         }
