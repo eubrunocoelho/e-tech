@@ -1,0 +1,51 @@
+/**
+ * =================================================================================
+ * CONTACT
+ * =================================================================================
+ */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &__box {
+        background: $blue-color-2;
+        border-radius: 10px;
+        column-gap: 30px;
+        display: flex;
+        padding: 12px 30px 12px 30px;
+        width: max-content;
+    }
+
+    &__item {
+        column-gap: 10px;
+        display: flex;
+        height: 46px;
+        width: max-content;
+    }
+
+    &__icon {
+        align-items: center;
+        color: $white-color;
+        display: flex;
+        font-size: 34px;
+        height: 46px;
+        justify-content: center;
+        width: 46px;
+    }
+
+    &__info {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: max-content;
+    }
+    
+    &__detail {
+        color: $white-color;
+        font-family: $font-exo-2;
+        font-size: 1.01rem;
+        font-weight: 700;
+    }
+}
