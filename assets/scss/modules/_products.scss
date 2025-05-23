@@ -5,13 +5,31 @@
  */
 
 .products {
-    column-gap: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-columns: 1fr;
     min-width: 0;
     width: 100%;
 
     &__item {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 504px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 776px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
