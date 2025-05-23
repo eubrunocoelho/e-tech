@@ -24,7 +24,14 @@
 
     &__previous,
     &__next {
+        color: $blue-color-2;
+        cursor: pointer;
+        font-size: 14px;
         position: absolute;
+
+        &:hover {
+            color: $blue-color-1;
+        }
     }
 
     &__previous {
@@ -33,18 +40,6 @@
 
     &__next {
         right: 4px;
-    }
-
-    .navigation {
-        &__icon {
-            color: $blue-color-2;
-            cursor: pointer;
-            font-size: 14px;
-
-            &:hover {
-                color: $blue-color-1;
-            }
-        }
     }
 
     &__list {

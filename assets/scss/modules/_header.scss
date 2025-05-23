@@ -40,16 +40,13 @@ header,
                 align-items: center;
                 background: $white-color;
                 border-radius: 4px;
+                color: $blue-color-1;
                 display: flex;
+                font-size: 13px;
                 height: 20px;
                 justify-content: center;
                 text-decoration: none;
                 width: 20px;
-            }
-
-            &__icon {
-                color: $blue-color-1;
-                font-size: 13px;
             }
         }
     }
@@ -72,6 +69,7 @@ header,
         align-items: center;
         cursor: pointer;
         display: flex;
+        flex: 0 0 auto;
         flex-direction: column;
         height: 40px;
         justify-content: center;
@@ -152,18 +150,14 @@ header,
     &__cart {
         align-items: center;
         background: transparent;
+        color: $white-color;
         cursor: pointer;
         display: flex;
+        flex: 0 0 auto;
+        font-size: 24px;
         height: 40px;
         justify-content: center;
         width: 40px;
-
-        .cart {
-            &__icon {
-                color: $white-color;
-                font-size: 24px;
-            }
-        }
     }
 }
 

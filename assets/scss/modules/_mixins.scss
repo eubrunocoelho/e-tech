@@ -69,19 +69,14 @@
             align-items: center;
             background: $blue-color-1;
             border-radius: 4px;
+            color: $white-color;
             display: flex;
+            font-size: 18px;
             height: 36px;
             justify-content: center;
             right: 4px;
             position: absolute;
             width: 62px;
-        }
-    }
-
-    .search {
-        &__icon {
-            color: $white-color;
-            font-size: 18px;
         }
     }
 }
