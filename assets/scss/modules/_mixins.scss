@@ -61,6 +61,21 @@
     width: 100%;
 }
 
+@mixin rounded-button($background-color, $height, $font-color, $font-size) {
+    align-items: center;
+    background: $background-color;
+    border-radius: $height;
+    color: $font-color;
+    display: flex;
+    font-family: $font-exo-2;
+    font-size: $font-size;
+    font-weight: 700;
+    height: $height;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 @mixin line-clamp($lines) {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: $lines;
