@@ -12,8 +12,9 @@
     &__box {
         background: $blue-color-2;
         border-radius: 10px;
-        column-gap: 30px;
-        display: flex;
+        column-gap: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         padding: 12px 30px 12px 30px;
         width: max-content;
     }
