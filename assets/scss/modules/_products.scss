@@ -16,19 +16,19 @@
     }
 }
 
-@media screen and (min-width: 504px) {
+@media screen and (min-width: 520px) {
     .products {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 786px) {
     .products {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1090px) {
     .products {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
