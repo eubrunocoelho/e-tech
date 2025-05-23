@@ -61,6 +61,14 @@
     width: 100%;
 }
 
+@mixin line-clamp($lines) {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $lines;
+    display: -webkit-box;
+    line-clamp: $lines;
+    overflow: hidden;
+}
+
 @mixin search-box($font-size) {
     align-items: center;
     display: flex;

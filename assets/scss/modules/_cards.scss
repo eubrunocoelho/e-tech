@@ -23,7 +23,14 @@
             }
 
             &__heading {
-                height: 64px;
+                @include line-clamp(
+                    $lines: 3
+                );
+                color: $gray-color-1;
+                font-family: $font-exo-2;
+                font-weight: 700;
+                height: 60px;
+                line-height: 1.1;
                 width: 100%;
             }
 
